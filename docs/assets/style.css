@@ -189,7 +189,7 @@ pre {
 
 .title {
   margin: 0 0 10px;
-  font-size: clamp(24px, 2vw, 38px);
+  font-size: clamp(24px, 2.5vw, 36px);
   line-height: 1.12;
   letter-spacing: -0.02em;
 }
