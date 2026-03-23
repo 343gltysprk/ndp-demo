@@ -53,9 +53,9 @@
       <section id="top" class="hero">
         <div class="container hero__inner">
           <div class="hero__copy">
-            <h5 class="title">
+            <h1 class="title">
               Neural Distribution Prior for LiDAR Out-of-Distribution Detection
-            </h5>
+            </h1>
 
             <p class="authors">
               <span class="authors__item">Zizhao Li</span>
@@ -153,24 +153,14 @@
             <h2>Demo</h2>
           </div>
 
-          <div class="grid grid--2">
-            <div class="card">
-              <h3>Qualitative video</h3>
-              <p class="muted">Example: point cloud + predicted OOD heatmap overlay.</p>
-              <video class="video" controls playsinline preload="metadata" poster="assets/vis_main.jpg">
-                <source src="assets/demo_qualitative.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
-
-            <div class="card">
-              <h3>Comparison video</h3>
-              <p class="muted">Example: baseline vs NDP side-by-side.</p>
-              <video class="video" controls playsinline preload="metadata" poster="assets/framework.png">
-                <source src="assets/demo_comparison.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+          <div class="card card--media">
+            <video class="video" controls playsinline preload="metadata" poster="assets/vis_main.jpg">
+              <source src="assets/ndp_demo.mov" />
+              Your browser does not support the video tag.
+            </video>
+            <figcaption class="caption" style="margin-top: 12px">
+              Point cloud + predicted OOD score map overlay.
+            </figcaption>
           </div>
         </div>
       </section>

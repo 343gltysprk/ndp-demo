@@ -377,10 +377,18 @@ pre {
 
 .video {
   width: 100%;
+  min-height: 520px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
   background: #000;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  object-fit: contain;
+}
+
+@media (max-width: 980px) {
+  .video {
+    min-height: 360px;
+  }
 }
 
 .callout {
